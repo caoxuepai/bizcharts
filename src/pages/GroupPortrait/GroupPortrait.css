@@ -1,0 +1,33 @@
+
+.groupportrait{
+    width: 100%;
+    overflow: hidden;
+}
+
+.tabs a{
+    display: inline-block;
+    width: 70px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color:rgba(25,35,60,0.85);
+}
+
+.tabs a.active{
+    background: #1890ff;
+    color: white;
+    transform: skewX(-20deg);
+}
+
+.tabs > span {
+    display: inline-block;
+    margin: 0px 3px;
+}
+
+.tabs a.active span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 28px;
+    transform: skewX(20deg);
+}

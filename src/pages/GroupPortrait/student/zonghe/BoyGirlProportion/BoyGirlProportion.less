@@ -1,0 +1,99 @@
+.proportion{
+  box-shadow:0 0 10px 0 rgba(0,0,0,0.05,0.8);
+  border-radius:4px;
+  background-color: rgba(255,255,255,0.8);
+  margin: 20px 10px 10px 20px;
+  .stCountFooter{
+    margin-top: 20px;
+    border-top: 1px solid #dadbdd;
+    padding-top: 14px;
+    .precent,.desc{
+      height: 35px;
+    }
+    .girl-precent{
+      font-size:24px;
+      color:#f0785f;
+      text-align: right;
+      padding-right: 15px;
+      line-height: 33px;
+    }
+    .boy-precent{
+      font-size:24px;
+      color:#1890ff;
+      text-align: right;
+      padding-right: 15px;
+      line-height: 33px;
+    }
+    .desc{
+      font-size:14px;
+      color:rgb(153, 153, 154);
+      line-height: 50px;
+    }
+    .leftBorder{
+      border-left: 1px solid #dadbdd;
+    }
+  }
+}
+
+//Progress半圆环样式
+.Progress{
+  padding: 0px 40px;
+  position: relative;
+  line-height: 1;
+  margin: 0 auto;
+  .main{
+    background-color: rgba(233, 233, 233, 1);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+  }
+  .left,.right{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 40px;
+    img{max-width: 100%}
+  }
+  .left{
+    left: 0;
+    text-align: right;
+    padding-right: 5px;
+  }
+  .right{
+    right: 0;
+    text-align: left;
+    padding-left: 5px;
+  }
+  .cont{
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+    p{
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      line-height: 20px;
+      margin-bottom: 0px;
+      left: 0;
+    }
+    .title{
+      line-height: 22px;
+      bottom: 25px;
+      font-size:16px;
+      color:#4ed8da;
+    }
+    .desc{
+      bottom: 0px;
+    }
+  }
+  .processBar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transform-origin: bottom center;
+    transform: rotateZ(180deg);
+    background-color: #4ed8da;
+    font-size:14px;
+  }
+}

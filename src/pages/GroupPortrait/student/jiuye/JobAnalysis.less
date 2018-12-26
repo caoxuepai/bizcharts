@@ -1,0 +1,72 @@
+.first-row {
+  background: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  width: 98%;
+  margin: 1%;
+  .row-border {
+    border-radius: 4px;
+    background: transparent;
+    .ant-card-bordered {
+      border: none;
+    }
+    .ant-list-split {
+      .ant-list-item {
+        border: none;
+      }
+    }
+  }
+}
+
+.second-row {
+  background: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  width: 98%;
+  margin: 0 1% 0.5% 1%;
+}
+
+//毕业趋势单位样式
+.unit-number {
+  font-size: 12px;
+  color: rgba(0,0,0,0.65);
+  letter-spacing: 0;
+  position: absolute;
+  transform: rotate(270deg);
+  left: 0;
+  top: 40%;
+}
+
+//毕业去向前十的城市
+.top-list {
+  list-style: none;
+  li {
+    margin: 15px 0px;
+    font-size: 14px;
+    color: #19233c;
+    text-align: left;
+    .seq {
+      background: rgba(25, 35, 60, 0.10);
+      margin-right: 26px;
+      width: 20px;
+      height: 20px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      line-height: 20px;
+    }
+    .seq-two {
+      display: inline-block;
+      width: 150px;
+    }
+    .select-active:first-child{
+      background: #19233c;
+      color: #fff;
+    }
+  }
+  .text-right{
+    margin-left: 10%;
+  }
+}
